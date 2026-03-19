@@ -6,9 +6,9 @@ This repository contains two foundational supervised learning projects demonstra
 A regression model designed to predict housing prices based on various structural and locational dataset features. The model preprocesses tabular data, handles missing values, and fits a regression curve to estimate continuous price targets.
 
 **Performance Metrics:**
-* **R² Score:** 0.86
-* **Root Mean Squared Error (RMSE):** $28,450
-* **Mean Absolute Error (MAE):** $19,200
+* **R² Score:** 0.84
+* **Mean Squared Error (MSE):** 314,285,714
+* **Root Mean Squared Error (RMSE):** 17,728
 
 ## 2. Cat vs. Dog Classification (SVM)
 A binary image classification pipeline utilizing a Support Vector Machine (SVM) to distinguish between images of cats and dogs. The images are resized, converted to grayscale, and flattened into feature vectors before being passed to the SVM classifier.
@@ -19,12 +19,9 @@ A binary image classification pipeline utilizing a Support Vector Machine (SVM) 
 * **Recall:** 0.77
 * **F1-Score:** 0.78
 
-## 3. Dataset
-A compressed dataset file (`dataset.zip`) is included in this repository. It contains both the tabular CSV data required for the housing model and the labeled image directories required for the SVM classifier. 
 
-*Please extract the dataset file into the root directory before running the training scripts.*
 
-## 4. Installation & Requirements
+## 3. Installation & Requirements
 Ensure you have Python 3.8+ installed. Install the required dependencies using pip:
 
 ```bash
